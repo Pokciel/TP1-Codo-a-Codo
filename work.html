@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Coco Paseos y Servicios</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">  
+          <!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom --> 
+          <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+          <!----- icono para apple y safari --> 
+          <link rel="shortcut icon" type="image/x-icon" href="assets/img/dog.ico">
+          <!-- Load Require CSS -->
+          <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+              <!-- iconos  -->
+          <link href="assets/css/boxicon.min.css" rel="stylesheet">
+              <!-- tipo de letra -->
+              <link rel="preconnect" href="https://fonts.gstatic.com">
+              <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+                  <!-- iconos  -->
+                  <script src="https://kit.fontawesome.com/1c47cb3d39.js" crossorigin="anonymous"></script>
+              <!-- carga CSS -->
+          <link rel="stylesheet" href="assets/css/estilos.css">
+      </head>
+
+<body>
+    <!-- Header -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+        </style>
+    <!-- Header 
+	nav = cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual 
+	o a otros documentos
+	-->
+
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+	
+	<!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+	navbar-light = texto negro de la letra
+	bg-white = fondo de color blanco
+	-->
+
+        <div class="container d-flex justify-content-between align-items-center">
+		
+            <a class="navbar-brand h1" href="index.html">
+			<!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->
+                <i class="fas fa-paw"></i>                
+				<!--	bx bx-buildings = icono del logo de la web: 
+				http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+				https://boxicons.com/
+				-->
+
+	       <span class="text-dark h4">Coco</span><span class="text-success h4"> Paseos y Servicios</span></a>
+			
+			<!--	boton de hamburguesa --> 
+  	          <button class="navbar-toggler border-0" 
+				type="button" data-bs-toggle="collapse" 
+				data-bs-target="#navbar-toggler-success" 
+				aria-controls="navbarSupportedContent" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+				</span>
+            </button>
+		<!------------------------------------------- Opciones del Menu		-->
+		<div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+		id="navbar-toggler-success">
+		
+		<!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+		por un punto de interrupción principal.
+		flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+		d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+		directos en elementos flexibles
+		-->
+  		              <div class="flex-fill mx-xl-5 mb-2">
+				<!--	  mx=para clases que establecen tanto *-lefty*-right-->
+ 	                   <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+					<!--   .navbar-nav para una navegación ligera y de altura completa 
+					   (incluida la compatibilidad con menús desplegables).-->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success rounded-pill px-3" href="index.html">Inicio</a>
+						<!-- px = padding y mx es el margin 
+						rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link btn-outline-success rounded-pill px-3" href="servicios.html">Servicios</a>
+                        </li>                         -->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success rounded-pill px-3" href="pricing.html">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success rounded-pill px-3" href="work.html">Trabaja con Coco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success rounded-pill px-3" href="contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+<!---------------------------------------------------------Fin de las opciones del menu
+------------------------------------------------------------ Inicio de los iconos del menu-->
+                    <div class="navbar align-self-center d-flex">
+                        <a class="nav-link text-success" target="_blank" href="http://facebook.com/">
+                            <i class="fab fa-facebook-square bx-md"></i></a>
+                        <a class="nav-link text-success" target="_blank" href="http://instagram.com/">
+                            <i class="fab fa-instagram-square bx-md"></i></a>
+                        <!-- <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-success'></i></a> -->
+                        <a class="nav-link text-success" target="_blank" href="https://twitter.com/?lang=es">
+                            <i class="fab fa-twitter-square bx-md"></i></a>                        
+                            <a class="nav-link text-success" target="_blank" href="https://www.whatsapp.com/">
+                                <i class="fab fa-whatsapp-square bx-md"></i></a>
+
+				    <!--	https://iconify.design/icon-sets/bx/-->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <div id="work_banner" class="banner-wrapper bg-light w-100 py-5">
+        <div class="banner-vertical-center-work container text-light d-flex justify-content-center align-items-center py-5 p-0">
+            <div class="banner-content col-lg-8 col-12 m-lg-auto text-center">
+                <h1 class="banner-heading h2 display-3 pb-5 semi-bold-600 typo-space-line-center">Nuestro Trabajo</h1>
+                <h3 class="h4 pb-2 regular-400">Al servicio de tus mascotas</h3>
+                <p class="banner-body pb-2 light-300">
+                    Con un alto rango de servicios especializados para mascotas incluyendo baño, peluquería y estilismo, paseos, adiestramiento y cuidado a domicilio.
+                </p>
+               <!-- <a href="contact.html"><button type="submit" class="btn rounded-pill btn-outline-light px-4 me-4 light-300">Consultas</button></a> -->
+             <a href="contact.html#contacto"><button type="submit" class="btn rounded-pill btn-success text-light px-4 light-300">Consultá por más Servicios</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner Hero -->
+
+     <!-- Start Team Member -->
+     <section class="container py-5">
+        <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
+
+            <div class="col-lg-3">
+                <h2 class="h2 py-5 typo-space-line text-success">Buscamos</h2>
+                <p class="text-muted light-300">
+                    Que estén interesados en prestar sus servicios visitando clientes, previa confirmación de cita.
+                    Pondremos a tu disposición toda la tecnología necesaria. Te contactaremos con los clientes y realizaremos los pagos directamente a tu cuenta.  
+                </p>
+            </div>
+
+            <div class="col-lg-9 row">
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/paseadora.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Paseadores</li>
+                        <li><li><a href="contact.html#contacto"><button type="submit" class="btn rounded-pill btn-outline-success mt-2 px-4 light-300">Contactate</button></a></li></li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/estilista.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Peluqueros y Estilistas</li>
+                        <li><li><a href="contact.html#contacto"><button type="submit" class="btn rounded-pill btn-outline-success mt-2 px-4 light-300">Contactate</button></a></li></li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/adiestrador.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Adiestradores</li>
+                        <li><a href="contact.html#contacto"><button type="submit" class="btn rounded-pill btn-outline-success mt-2 px-4 light-300">Contactate</button></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Team Member -->
+
+
+   <!-- Start Footer -->
+   <footer class="bg-success pt-4">
+    <div class="container">
+        <div class="row py-4">
+
+            <div class="col-lg-3 col-12 align-left">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-paw text-light"></i> 
+                    <span class="text-light h5"> Coco</span><span class="text-light h5 semi-bold-600"> Paseos y Servicios</span>
+                </a>
+                <p class="text-light my-lg-4 my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut.
+                </p>
+                <ul class="list-inline footer-icons light-300">
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="http://facebook.com/">
+                            <i class="fab fa-facebook-square bx-md"></i>                            
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://twitter.com/?lang=es">
+                            <i class="fab fa-twitter-square bx-md"></i>                            
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                            <i class="fab fa-whatsapp-square bx-md"></i>                            
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.instagram.com/">
+                            <i class="fab fa-instagram-square bx-md"></i>                            
+                        </a>
+                    </li>                        
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h3 class="h4 pb-lg-3 text-light light-300">Paseos</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" 
+                            href="index.html">Inicio</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="pricing.html">Precios</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" 
+                            href="contact.html">Contacto</a>
+                        </li>                            
+                    </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h4 pb-lg-3 text-light light-300">Moda</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Ultimas tendencias</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Peluquería</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Eventos</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Redes Sociales</a>
+                    </li>                        
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h4 pb-lg-3 text-light light-300">Servicios para mascotas a domicilio</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="tel:010-020-0340">021-2354-4568</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                        href="mailto:info@company.com">info@company.com</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="w-100 bg-dark py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-start text-center text-light light-300">
+                        © Copyright 2021 - Coco Paseos y Servicios - Todos los derechos reservados.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-end text-center text-light light-300">
+                        Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
+                        href="https://cursophp.com.ar/" target="_blank"><strong>AA FullStack</strong></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+    <!-- End Footer -->
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Lightbox -->
+    <script src="assets/js/fslightbox.js"></script>
+    <script>
+        fsLightboxInstances['gallery'].props.loadOnlyCurrentSource = true;
+    </script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
